@@ -1,0 +1,39 @@
+:root {
+    /*menu-icons, menu-font-pressed, card-fonts, label-font, input-font-planos-hover, footer-font*/
+    --cinza: #565657;
+
+    /*menu-background, card-background, form-background, footer-line*/
+    --white-bg: #FFFFFF;
+
+    /*hover:
+    button-bg, input-border*/
+    --hover: #B5FED1;
+
+    /*focused:
+    input-border, button-bg*/
+    --focused: #8EFFB9;
+
+    /*menu*/
+    --menu-font-enable: #797979;
+    --menu-font-hover: #5F5F5F;
+
+    /*cards*/
+    --card-icons: #3F3F3F;
+
+    /*form*/
+    --input-background: #EAECF3;
+    --input-bg-disable: #C0C2CE;
+    --input-font-placeholder: #A4A4A4;
+    
+    /*button*/
+    --button-font: #7E7E7E;
+    --button-border: #FFFFFF80;
+    --button-bg-enable: #D0FAE0;
+    --button-bg-pressed: #8EFFB9;
+
+    /*font*/
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
