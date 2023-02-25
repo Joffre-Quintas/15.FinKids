@@ -1,0 +1,89 @@
+.div_do_titulo {
+    width: 7.5rem;
+    height: 1.625rem;
+    background-color: var(--white-bg);
+    border-radius: 0 0.5rem 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.div_do_titulo h1 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+/* Main */
+.lista__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lista__cards_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    background-color: var(--white-bg);
+    justify-content: space-between;
+    padding: 1.5rem .5rem 1rem .5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.lista__cards_items h2 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.lista__cards_items p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.lista__cards_items-preço p:first-child {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.lista__cards_items-preço span {
+    font-size: .625rem;
+    font-weight: 500;
+}
+
+.lista__cards_items-preço p:last-child {
+    font-size: .5rem;
+    font-weight: 500;
+    line-height: 3px
+}
+
+/* Botão */
+
+.botao {
+    color: var(--button-font);
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background-color: var(--button-bg-enable);
+    border-radius: 2px;
+}
+
+.botao {}
+
+.botao:hover {
+    background-color: var(--hover);
+
+}
