@@ -12,4 +12,9 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: #DEE2F3;
+    background-image: url("../img/finKids\ Bg\ 1.png");
+    color: var(--cinza);
+    
+      
 }
