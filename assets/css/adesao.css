@@ -54,4 +54,9 @@
     background-color: var(--hover);
     
 }
+.error{
+    font-size: 0.75rem;
+    margin: 10px 0 0 10px;
+    color: var(--cinza);
 
+}
