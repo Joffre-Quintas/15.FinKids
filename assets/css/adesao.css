@@ -56,7 +56,9 @@
 }
 .error{
     font-size: 0.75rem;
-    margin: 10px 0 0 10px;
-    color: var(--cinza);
+    margin: 10px 0 0 20px;
+    color: var(--button-bg-pressed);
+    font-weight: 700;
+    font-size: 15px;
 
 }

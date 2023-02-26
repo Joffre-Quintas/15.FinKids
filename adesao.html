@@ -13,23 +13,27 @@
 </head>
 <body>
     <main class="main_form">
-        <form class="form">
+        <form class="form" action="">
             <h2 class="Titulo_form">Cadastro</h2>
             <div class="informacoes">
                 <label for="">Nome do titular</label>
                 <input id="nome" placeholder="Ana Maria da Silva Oliveira" type="text">
+                <small class="name_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">CPF</label>
                 <input id="cpf" placeholder="123.456.789.01" type="text">
+                <small class="cpf_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">E-mail</label>
                 <input id="email"placeholder="anamaria@dominio.com" type="text">
+                <small class="email_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">CEP</label>
                 <input id="cep"placeholder="12.456.789" type="text">
+                <small class="cep_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">Endereço</label>
@@ -46,6 +50,7 @@
                     <option value="">Jr - R$79,90/mês</option>
                     <option value="">Plus - R$109,90/mês</option>
                 </select>
+                <small class="plano_error"></small>
             </div>
             <div class="botao">
                 <input id="btn_submeter" type="submit" value="Confirmar!">
