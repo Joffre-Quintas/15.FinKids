@@ -12,30 +12,35 @@
     <link rel="stylesheet" href="./assets/css/adesao.css">
     <!-- Scritp JS -->
     <script type="module" src="assets/js/form/consumoCEP.js" defer></script>
+    <script src="assets/js/formulario.js" defer></script>
 </head>
 <body>
     <main class="main_form">
-        <form class="form">
+        <form class="form" action="">
             <h2 class="Titulo_form">Cadastro</h2>
             <div class="informacoes">
-                <label for="completName">Nome do titular</label>
+                <label for="">Nome do titular</label>
                 <input placeholder="Ana Maria da Silva Oliveira" type="text" id="completName">
+                <small class="nome_error"></small>
             </div>
             <div class="informacoes">
-                <label for="cpf">CPF</label>
-                <input placeholder="123.456.789.01" type="text" id="cpf">
+                <label for="">CPF</label>
+                <input placeholder="123.456.789.01" type="text">
+                <small class="cpf_error"></small>
             </div>
             <div class="informacoes">
-                <label for="email">E-mail</label>
-                <input placeholder="anamaria@dominio.com" type="text" id="email">
+                <label for="">E-mail</label>
+                <input placeholder="anamaria@dominio.com" type="text">
+                <small class="email_error"></small>
             </div>
             <div class="informacoes">
-                <label for="cep">CEP</label>
-                <input placeholder="xx.xxx-xxx" type="text" minlength="8" maxlength="8" id="cep">
+                <label for="">CEP</label>
+                <input placeholder="123.456.789-01" type="text">
+                <small class="cep_error"></small>
             </div>
             <div class="informacoes">
-                <label>Endereço</label>
-                <input placeholder="Rua Vinícius de Moraes" type="text" id="adress" disabled>
+                <label for="">Endereço</label>
+                <input placeholder="Rua Vinícius de Moraes" type="text">
             </div>
             <div class="informacoes">
                 <label for="complementAdress">Complemento</label>
@@ -43,14 +48,15 @@
             </div>
             <div class="informacoes">
                 <label for="">Plano</label>
-                <select >
+                <select id="plano">
                     <option value="">Básico - R$49,90/mês</option>
                     <option value="">Jr - R$79,90/mês</option>
                     <option value="">Plus - R$109,90/mês</option>
                 </select>
+                <small class="plano_error"></small>
             </div>
             <div class="botao">
-                <input type="submit" value="Confirmar!">
+                <input id="btn_submeter" type="submit" value="Confirmar!">
             </div>
         </form>
 
@@ -72,5 +78,6 @@
         <p>© 2023 | Desenvolvido por fin.Kids</p>
         </div>
     </footer>  
+    <script src="./assets/js/formulario.js"></script>
 </body>
 </html>
