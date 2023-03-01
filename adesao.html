@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/adesao.css">
     <!-- Scritp JS -->
-    <script type="module" src="assets/js/form/consumoCEP.js" defer></script>
-    <script src="assets/js/formulario.js" defer></script>
+    <!-- <script type="module" src="assets/js/form/consumoCEP.js" defer></script> -->
+    <!-- <script src="assets/js/formulario.js" defer></script> -->
+    
 </head>
 <body>
     <main class="main_form">
@@ -25,22 +26,22 @@
             </div>
             <div class="informacoes">
                 <label for="">CPF</label>
-                <input placeholder="123.456.789.01" type="text">
+                <input placeholder="123.456.789.01" type="text" id="cpf">
                 <small class="cpf_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">E-mail</label>
-                <input placeholder="anamaria@dominio.com" type="text">
+                <input placeholder="anamaria@dominio.com" type="text" id="email">
                 <small class="email_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">CEP</label>
-                <input placeholder="123.456.789-01" type="text">
+                <input placeholder="123.456.789-01" type="text" id="cep">
                 <small class="cep_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">Endereço</label>
-                <input placeholder="Rua Vinícius de Moraes" type="text">
+                <input placeholder="Rua Vinícius de Moraes" type="text" id="adress">
             </div>
             <div class="informacoes">
                 <label for="complementAdress">Complemento</label>
@@ -78,6 +79,9 @@
         <p>© 2023 | Desenvolvido por fin.Kids</p>
         </div>
     </footer>  
-    <script src="./assets/js/formulario.js"></script>
+    
+    <!-- <script src="./assets/js/formulario.js"></script> -->
+
+    <script type="module" src="assets/js/form/formApp.js"></script>
 </body>
 </html>
