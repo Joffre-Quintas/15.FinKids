@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/adesao.css">
-
+    <!-- Scritp JS -->
+    <script type="module" src="assets/js/form/consumoCEP.js" defer></script>
 </head>
 <body>
     <main class="main_form">
@@ -17,31 +19,29 @@
             <h2 class="Titulo_form">Cadastro</h2>
             <div class="informacoes">
                 <label for="">Nome do titular</label>
-                <input id="nome" placeholder="Ana Maria da Silva Oliveira" type="text">
-                <small class="name_error"></small>
+                <input placeholder="Ana Maria da Silva Oliveira" type="text">
             </div>
             <div class="informacoes">
                 <label for="">CPF</label>
-                <input id="cpf" placeholder="123.456.789.01" type="text">
-                <small class="cpf_error"></small>
+                <input placeholder="123.456.789.01" type="text">
             </div>
             <div class="informacoes">
-                <label for="">E-mail</label>
-                <input id="email"placeholder="anamaria@dominio.com" type="text">
+                <label for="email">E-mail</label>
+                <input placeholder="anamaria@dominio.com" type="text" id="email">
                 <small class="email_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">CEP</label>
-                <input id="cep"placeholder="12.456.789" type="text">
+                <input placeholder="xx.xxx-xxx" type="text" id="cep">
                 <small class="cep_error"></small>
             </div>
             <div class="informacoes">
                 <label for="">Endereço</label>
-                <input id="endereco"placeholder="Rua Vinícius de Moraes" type="text">
+                <input placeholder="Rua Vinícius de Moraes" type="text"  id="adress" disabled>
             </div>
             <div class="informacoes">
                 <label for="">Complemento</label>
-                <input id="complemento" placeholder="Em frente ao mercado" type="text">
+                <input placeholder="123.456.789-01" type="text">
             </div>
             <div class="informacoes">
                 <label for="">Plano</label>
