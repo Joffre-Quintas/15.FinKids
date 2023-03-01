@@ -17,7 +17,7 @@ const arrInput =[nomeInput, cpfInput, emailInput, cepInput, planoInput];
 const arrError = [nomeError, cpfError, emailError, cepError,planoError];
 
 
-function inputOk(event) {
+export function inputOk(event) {
     event.preventDefault();
     let output = true;
     arrInput.forEach((input)=>{
@@ -89,9 +89,11 @@ function inputOk(event) {
 }
 
 
-form.addEventListener('submit', (event) => {
-    inputOk(event);
-});
+// form.addEventListener('submit', (event) => {
+//     inputOk(event);
+// });
+
+
 
 
 

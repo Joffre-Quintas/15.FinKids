@@ -30,6 +30,9 @@ async function findCEP(input) {
     }
 }
 
-inputCEP.addEventListener('blur', (input)=> {
-    findCEP(input)
-})
+// inputCEP.addEventListener('blur', (input)=> {
+//     findCEP(input)
+// })
+
+export default { findCEP, inputCEP };
+
