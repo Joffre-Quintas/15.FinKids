@@ -5,7 +5,7 @@ const emailError = document.querySelector("small.email_error");
 const cepError = document.querySelector("small.cep_error");
 const planoError = document.querySelector("small.plano_error");
 
-const nomeInput = document.getElementById('nome');
+const nomeInput = document.getElementById('name');
 const cpfInput = document.getElementById('cpf');
 const emailInput = document.getElementById('email');
 const cepInput = document.getElementById('cep');
