@@ -5,7 +5,7 @@ const emailError = document.querySelector("small.email_error");
 const cepError = document.querySelector("small.cep_error");
 const planoError = document.querySelector("small.plano_error");
 
-const nomeInput = document.getElementById('name');
+const nomeInput = document.getElementById('completName');
 const cpfInput = document.getElementById('cpf');
 const emailInput = document.getElementById('email');
 const cepInput = document.getElementById('cep');
@@ -34,7 +34,7 @@ export function inputOk(event) {
         let inputId = input.getAttribute("id");
         if (inputValue.length === 0){
             output = false;
-            if (inputId === "nome"){
+            if (inputId === "completName"){
                 nomeError.innerHTML = "É obrigatório informar o nome";
                 nomeError.classList.add("error");
             }else if(inputId === "cpf"){
@@ -92,6 +92,8 @@ export function inputOk(event) {
 // form.addEventListener('submit', (event) => {
 //     inputOk(event);
 // });
+
+export default { inputOk, form };
 
 
 
