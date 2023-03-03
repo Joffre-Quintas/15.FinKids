@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/root.css">
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>fin.Kids</title>
 </head>
+
 <body>
     <header>
-        <nav class="menu">
-        </nav>
+        <input type="checkbox" name="" id="checkbox">
+        <div class="teste">
+            <div class="img">
+                <img src="./assets/img//finKids Logo 2.png" alt="Logo da FinKids">
+            </div>
+            <label for="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <ul onclick="document.querySelector('#checkbox').checked = false;" class="list">
+            <li><a href="./planos.html">Planos</a></li>
+            <li><a href="./adesao.html">Adesão</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
+        </ul>
     </header>
-        <main>
-            <section class="cards">
-                <section class="card-sobre">
-                    <h2> Quem somos nós?</h2>
-                    <p>Somos uma escola de educação financeira e criamos uma solução criativa para ensinar crianças sobre a importância de economizar. Fazemos isso de forma leve e intuitiva.</p>
-                </section>
-
-                <section class="card-artigo">
-                    <div>
-                        <h2>Por que seu filho deve ter acesso a fin.Kids?</h2>
-                        <p>Segundo uma recente pesquisa do site Exame.com, “ensinar desde pequeno a importância do dinheiro, da poupança e dos investimentos auxilia na criação de adultos mais conscientes.”</p>
-                    </div>
-                    <div class="button-saibaMais">
-                        <a href="">Saiba mais!</a>
-                    </div>
-                </section>
-
-                <section class="card-pacote">
-                    <h2>Nossos pacotes de ensino oferecem:</h2>
-                    <ul>
-                        <li>App exclusivo;</li>
-                        <li>Aulas ao vivo e assíncronas;</li>
-                        <li>Professores especializados;</li>
-                        <li>Jogos educativos;</li>
-                        <li>Exercícios e muito mais.</li>
-                    </ul>
-                    <img class="icones-pacotes" src="../IMG/Ícones pacotes.svg" alt="Ícones pacotes">
-                </section>
+    <main>
+        <section class="cards">
+            <section class="card-sobre">
+                <h2> Quem somos nós?</h2>
+                <p>Somos uma escola de educação financeira e criamos uma solução criativa para ensinar crianças sobre a
+                    importância de economizar. Fazemos isso de forma leve e intuitiva.</p>
             </section>
-            <section class="vantagens">
+
+            <section class="card-artigo">
                 <div>
-                    <h2>Vantagens</h2>
+                    <h2>Por que seu filho deve ter acesso a fin.Kids?</h2>
+                    <p>Segundo uma recente pesquisa do site Exame.com, “ensinar desde pequeno a importância do dinheiro,
+                        da poupança e dos investimentos auxilia na criação de adultos mais conscientes.”</p>
                 </div>
-                <div class="container-vantagens"id="containerVantagens">
-                    <div class="cards-vantagens"><img src="../IMG/Streaming.svg" alt="Streaming"><p>Desconto em streaming</p></div>
-
-                    <div class="cards-vantagens"><img src="../IMG/English.svg" alt="English"><p>Acesso a cursos de idioma</div>
-
-                    <div class="cards-vantagens"><img src="../IMG/Cinema.svg" alt="Cinema"><p>Desconto em Cinemas</p></div>
-
-                    <div class="cards-vantagens"><img src="../IMG/Pool.svg" alt="Parque aquático"><p>Ingressos para Parque Aquático</p></div>
-                    </div>
+                <div class="button-saibaMais">
+                    <a href="">Saiba mais!</a>
+                </div>
             </section>
-            <section class="quero-contratar">
-                <a class="button-contrate" href="">Quero contratar!</a>
+
+            <section class="card-pacote">
+                <h2>Nossos pacotes de ensino oferecem:</h2>
+                <ul>
+                    <li>App exclusivo;</li>
+                    <li>Aulas ao vivo e assíncronas;</li>
+                    <li>Professores especializados;</li>
+                    <li>Jogos educativos;</li>
+                    <li>Exercícios e muito mais.</li>
+                </ul>
+                <img class="icones-pacotes" src="./assets/img/Ícones pacotes.svg" alt="Ícones pacotes">
             </section>
-        </main>
+        </section>
+        <section class="vantagens">
+            <div>
+                <h2>Vantagens</h2>
+            </div>
+            <div class="container-vantagens" id="containerVantagens">
+                <div class="cards-vantagens"><img src="./assets/img/Streaming.svg" alt="Streaming">
+                    <p>Desconto em streaming</p>
+                </div>
+
+                <div class="cards-vantagens"><img src="./assets/img/English.svg" alt="English">
+                    <p>Acesso a cursos de idioma
+                </div>
+
+                <div class="cards-vantagens"><img src="./assets/img/Cinema.svg" alt="Cinema">
+                    <p>Desconto em Cinemas</p>
+                </div>
+
+                <div class="cards-vantagens"><img src="./assets/img/Pool.svg" alt="Parque aquático">
+                    <p>Ingressos para Parque Aquático</p>
+                </div>
+            </div>
+        </section>
+        <section class="quero-contratar">
+            <a class="button-contrate" href="">Quero contratar!</a>
+        </section>
+    </main>
     <footer>
 
     </footer>
 </body>
+
 </html>

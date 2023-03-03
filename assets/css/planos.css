@@ -81,8 +81,6 @@
     border-radius: 2px;
 }
 
-.botao {}
-
 .botao:hover {
     background-color: var(--hover);
 
