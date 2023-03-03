@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -17,18 +18,19 @@
 
 <body>
     <header>
-        <input type="checkbox" name="" id="checkbox">
-        <div class="teste">
+        <input type="checkbox" name="" id="burger-menu__checkbox">
+        <div class="burger-menu__container">
+            <div class="cx-branca"></div>
             <div class="img">
-                <img src="./assets/img//finKids Logo 2.png" alt="Logo da FinKids">
+                <img src="./assets/img/finKids Logo 2.png" alt="Logo da FinKids">
             </div>
-            <label for="checkbox">
+            <label for="burger-menu__checkbox">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
         </div>
-        <ul onclick="document.querySelector('#checkbox').checked = false;" class="list">
+        <ul onclick="document.querySelector('#burger-menu__checkbox').checked = false;" class="burger-menu__list">
             <li><a href="./planos.html">Planos</a></li>
             <li><a href="./adesao.html">Adesão</a></li>
             <li><a href="./clientes.html">Clientes</a></li>
@@ -93,6 +95,16 @@
     </main>
     <footer>
 
+        <div class="footer__linha"></div>
+        <div class="footer__texto">
+            <address>
+                fin.Kids SA | CNPJ: 12.345.678.0001-12 <br>
+                Rio de Janeiro, Nº7 | Centro | CEP: 12123-456
+
+            </address>
+            <br>
+            <p>© 2023 | Desenvolvido por fin.Kids</p>
+        </div>
     </footer>
 </body>
 
