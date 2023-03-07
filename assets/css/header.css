@@ -98,6 +98,10 @@ header {
     /* justify-self: end; */
 }
 
+.img a {
+    display: flex;
+}
+
 /* Menu */
 .burger-menu__list {
     display: flex;
