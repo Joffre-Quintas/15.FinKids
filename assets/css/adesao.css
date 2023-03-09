@@ -61,6 +61,11 @@
     outline: 2px solid var(--button-bg-pressed);
 }
 
+::placeholder{
+    color: var(--input-font-placeholder);
+    font-weight: 400;
+}
+
 .botao {
     color: var(--button-font);
     margin: 0 auto;
@@ -82,8 +87,12 @@
 .error {
     font-size: 0.75rem;
     margin: 10px 0 0 20px;
-    color: var(--button-bg-pressed);
-    font-weight: 700;
+    color: var(--error);
+    font-weight: 600;
     font-size: 15px;
 
+}
+
+.titulo_form{
+    text-align: center;
 }
