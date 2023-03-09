@@ -34,7 +34,7 @@
     </div>
     <main class="main_form" id="criaErro">
         <form class="form" action="">
-            <h2 class="Titulo_form">Cadastro</h2>
+            <h2 class="titulo_form">Cadastro</h2>
             <div class="informacoes">
                 <label for="">Nome do titular</label>
                 <input placeholder="Ana Maria da Silva Oliveira" type="text" id="completName">
@@ -57,7 +57,7 @@
             </div>
             <div class="informacoes">
                 <label for="">Endereço</label>
-                <input placeholder="Rua Vinícius de Moraes" type="text" id="adress">
+                <input disable placeholder="Rua Vinícius de Moraes" type="text" id="adress">
             </div>
             <div class="informacoes">
                 <label for="complementAdress">Complemento</label>
@@ -66,9 +66,9 @@
             <div class="informacoes">
                 <label for="">Plano</label>
                 <select id="plano">
-                    <option value="">Básico - R$49,90/mês</option>
-                    <option value="">Jr - R$79,90/mês</option>
-                    <option value="">Plus - R$109,90/mês</option>
+                    <option value="basico" selected>Básico - R$49,90/mês</option>
+                    <option value="jr">Jr - R$79,90/mês</option>
+                    <option value="plus">Plus - R$109,90/mês</option>
                 </select>
                 <small class="plano_error"></small>
             </div>
@@ -99,6 +99,8 @@
     <!-- <script src="./assets/js/formulario.js"></script> -->
 
     <script type="module" src="assets/js/form/formApp.js"></script>
+    <script src="assets/js/form/localStorage.js"></script>
+   
 </body>
 
 </html>
